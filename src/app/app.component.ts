@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'ang-gpt-chatbot';
+
+  actions=[
+    {route:"home", title:'Home', icon:'house'},
+    {route:"gpt", title:'GPT', icon:'person'}
+  ]
 }
